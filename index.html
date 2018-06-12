@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>爱奇艺官网</title>
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_682751_aosej0e9012fyldi.css" />
+		<link rel="stylesheet" href="dist/css/index.css"/>
+		<style>
+			img{
+				max-width: 100%!important;
+				max-height: 100%!important;
+				width: auto!important;
+				height: auto!important;
+			}
+		</style>
+	</head>
+	<body>
+		<!--头部-->
+		<!--nav-->
+		<div class="nav clearfix">
+			<div class="nav-wrapper clearfix">
+				<a class="left-float" href="#"><img data-echo="dist/img/AQYlogo.png" alt="图片加载失败"/></a>
+				<a class="left-float" href="#"><img data-echo="dist/img/nav-langyabang.jpg" alt="图片加载失败"></a>
+				<div class="search-wrapper left-float clearfix">
+					<input class="left-float" type="text" value="风筝">
+					<button class="left-float" type="button">搜全网</button>
+				</div>
+				<ul class="left-float nav-catalog">
+					<li class="left-float" ><a href="#">登录</a></li>
+					<li class="left-float" ><a href="#">注册</a></li>
+					<li class="left-float" ><a href="#">开通VIP</a></li>
+					<li class="left-float" ><a href="#">上传</a>
+						<ul class="uploat">
+							<li><a href="#">上传视频</a></li>
+							<li><a href="#">制作视频</a></li>
+							<li><a href="#">我的空间</a></li>
+							<li><a href="#">视频管理</a></li>
+							<li><a href="#">流量分析</a></li>
+							<li><a href="#">申请分成</a></li>
+						</ul>
+					</li>
+					<li class="left-float" id="dowclientkey"><a href="#">下载客户端</a>
+						<ul class="dowclient">
+							<li class="clearfix"><img class="left-float" src="dist/img/ADlogo.png.jpg" alt="图片加载失败"/>签到免广告，送VIP</li>
+							<li class="clearfix"><img class="left-float" src="dist/img/JSlogo.jpg" alt="图片加载失败">5倍流畅度，不卡顿</li>
+							<li class="clearfix"><img class="left-float" src="dist/img/1080p.jpg" alt="图片加载失败">1080p免费畅享</li>
+							<li class="clearfix"><img class="left-float" src="dist/img/VIPlogo.jpg" alt="图片加载失败">搜不到视频，送VIP</li>
+							<li><input type="button" value="立即体验" /></li>
+						</ul>
+					</li>
+					<li class="left-float" id="nav-news"><a href="#">消息</a>
+						<div class="news-catalog">
+							<ul>
+								<li class="left-float news-nav">更新提醒</li>
+								<li class="left-float news-nav">用户推荐</li>
+								<li class="left-float news-nav">系统通知</li>
+							</ul>
+							<div id="news-nav-top"></div>
+							<a href="#">查看更多</a>
+						</div>
+					</li>
+					<li class="left-float play-record" ><a href="#">播放记录</a>
+						<div id="play-content">您还没有观看任何视频
+							<a>查看更多></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+  		<!--焦点图片列表-->
+		<div class="sidebar-wrapper ">
+			<div class="content">
+				<div class="a-content">
+					<div class="carousel-content">
+						<ul class="carousel">
+							<li><img src="dist/img/09a71a6bbaa04c71a5e44efea76bbbab.jpg" alt="图片加载失败"></li>
+							<li><img src="dist/img/lazyloading.gif" data-echo="dist/img/2d2d474aa166498a801d9726574d7d74.jpg" alt="图片加载失败"></li>
+							<li><img src="dist/img/lazyloading.gif" data-echo="dist/img/496ab4b19e3b4870bebc7f126b6b5c02.jpg" alt="图片加载失败"></li>
+							<li><img src="dist/img/lazyloading.gif" data-echo="dist/img/6a4f4102e15d4c33b495d7c4f772445f.jpg" alt="图片加载失败"></li>
+							<li><img src="dist/img/lazyloading.gif" data-echo="dist/img/7cc83128238643fbaf38fe12e455bef1.jpg" alt="图片加载失败"></li>
+							<li><img src="dist/img/lazyloading.gif" data-echo="dist/img/f8582605138847cfa919f0ea38ba6ddb.jpg" alt="图片加载失败"></li>
+							<li><img src="dist/img/lazyloading.gif" data-echo="dist/img/d333cf7a90614b8387be88c210602101.jpg" alt="图片加载失败"></li>
+							<li><img src="dist/img/lazyloading.gif" data-echo="dist/img/df1a367a16df4bd4896f4791e1a05086.jpg" alt="图片加载失败"></li>
+							<li><img src="dist/img/lazyloading.gif" data-echo="dist/img/f1effb9495834c12aec892e1443e1f70.jpg" alt="图片加载失败"></li>
+							<li><img src="dist/img/lazyloading.gif" data-echo="dist/img/f8582605138847cfa919f0ea38ba6ddb.jpg" alt="图片加载失败"></li>
+						</ul>
+						<ul class="img-index"></ul>
+						<div class="carousel-prev"><img src="dist/img/left1.png"></div>
+						<div class="carousel-next"><img src="dist/img/right1.png"></div>
+					</div>
+				</div>
+			</div>
+		  
+		  <!--列表按钮-->
+  			<ul class="section1-sidebar img-index">
+  				<li class="sidebar-item"><a href="#">蜀山战纪2:逆天改命再续前缘</a></li>
+  				<li class="sidebar-item"><a href="#">风起长林:起兵谋反金陵陷危局</a></li>
+  				<li class="sidebar-item"><a href="#">凤囚凰：楚玉舍命随容止跳崖</a></li>
+  				<li class="sidebar-item"><a href="#">寻梦环游记:小男孩大闹亡灵国</a></li>
+  				<li class="sidebar-item"><a href="#">偶像练习生：范丞丞忘词落泪</a></li>
+  				<li class="sidebar-item"><a href="#">三个院子：陈小春耕田变农夫</a></li>
+  				<li class="sidebar-item"><a href="#">和平饭店:陈数雷佳音幽默谍战</a></li>
+  				<li class="sidebar-item"><a href="#">声临其境:四美重现金陵十三钗</a></li>
+  				<li class="sidebar-item"><a href="#">萌宠小大人：果贝友谊“翻船”</a></li>
+  				<li class="sidebar-item"><a href="#">国家宝藏:周冬雨穿越石器时代</a></li>
+  			</ul>
+  		</div>	
+  		
+  		<!--二级导航-->
+  		<div class="subnav">
+  			<div class='subnav-wrapper'>
+  				<div class="wrapper-small clearfix">
+  					<ul class="nav-one left-float">
+  						<li><a href="#">娱乐</a></li>
+  						<li><a href="#">体育</a></li>
+  						<li><a href="#">热门</a></li>
+  					</ul>
+  					<ul class="nav-two left-float clearfix">
+  						<li class='left-float'><a href="#">电影</a></li>
+  						<li class="left-float"><a href="#">电视剧</a></li>
+  						<li class="left-float"><a href="#">片花</a></li>
+  						<li class="left-float"><a href="#">综艺</a></li>
+  						<li class="left-float"><a href="#">网络电影</a></li>
+  						<li class="left-float"><a href="#">脱口秀</a></li>
+  					</ul>
+  					<ul class="nav-three left-float clearfix">
+  						<li class='left-float'><a href="#">动漫</a></li>
+  						<li class="left-float"><a href="#">生活</a></li>
+  						<li class="left-float"><a href="#">儿童</a></li>
+  						<li class="left-float"><a href="#">母婴</a></li>
+  						<li class="left-float"><a href="#">教育</a></li>
+  						<li class="left-float"><a href="#">健康</a></li>
+  					</ul>
+  					<ul class="nav-four left-float clearfix">
+  						<li class='left-float'><a href="#">音乐</a></li>
+  						<li class="left-float"><a href="#">搞笑</a></li>
+  						<li class="left-float"><a href="#">时尚</a></li>
+  						<li class="left-float"><a href="#">原创</a></li>
+  						<li class="left-float"><a href="#">旅游</a></li>
+  						<li class="left-float"><a href="#">拍客</a></li>
+  					</ul>
+  					<ul class="nav-five left-float clearfix">
+  						<li class='left-float'><a href="#">财经</a></li>
+  						<li class="left-float"><a href="#">军事</a></li>
+  						<li class="left-float"><a href="#">科技</a></li>
+  						<li class="left-float"><a href="#">公益</a></li>
+  						<li class="left-float"><a href="#">汽车</a></li>
+  						<li class="left-float"><a href="#">纪录片</a></li>
+  					</ul>
+  					<ul class="nav-six left-float clearfix">
+  						<li class='left-float'><a href="#">风云榜</a></li>
+  						<li class="left-float"><a href="#">奇秀直播</a></li>
+  						<li class="left-float"><a href="#">全网影视</a></li>
+  						<li class="left-float"><a href="#">直播中心</a></li>
+  						<li class="left-float"><a href="#">全网搜索</a></li>
+  						<li class="left-float"><a href="#">应用商店</a></li>
+  					</ul>
+  					<ul class="nav-seven left-float clearfix">
+  						<li class='left-float'><a href="#">商场</a></li>
+  						<li class="left-float"><a href="#">大头</a></li>
+  						<li class="left-float"><a href="#">文学</a></li>
+  						<li class="left-float"><a href="#">游戏视频</a></li>
+  						<li class="left-float"><a href="#">爱奇艺号</a></li>
+  						<li class="left-float"><a href="#">漫画</a></li>
+  						<li class="left-float"><a href="#">游戏中心</a></li>
+  						<li class="left-float"><a href="#">VR</a></li>
+  						<li class="left-float"><a href="#">泡泡</a></li>
+  					</ul>
+  					<ul class="nav-eight left-float">
+  					</ul>
+  				</div>
+  			</div>
+  		</div>	
+  			
+  		<!--今日焦点	-->
+  		<div class="today-focus clearfix">
+  			
+  			<!--今日焦点左侧-->
+  			<div class="today-focus-left left-float">
+  				<div class="today-focus-title clearfix">
+  					<p class="left-float"><a href="#">今日焦点<span>更多></span></a></p>
+  					<p class="right-float"><a href="#">蜀山战纪2</a></p>
+  				</div>
+  				<p><a href="#">3月8日"国际妇女节"联合国秘书长致辞</a></p>
+  				<ul class="focus-left-list">
+  					<li><a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">2分钟看王毅两会圈粉</a><a href="#">熊猫宝宝卖艺秒变功夫熊猫</a>
+  					</li>
+  					<li><a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">司机挂手绘车牌去交管队 辩称:临时用一下不违法 </a>
+  					</li>
+  					<li><a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">两人同行旅游一人突发脑溢血 起诉同伴索赔26万 </a>
+  					</li>
+  					<li><a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">货车司机借钱神操作 把钱藏高速路上等朋友来找 </a>
+  					</li>
+  					<li><a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">最古老漂流瓶现身澳大利亚 瓶中信内容令人惊叹 </a>
+  					</li>
+  					<li><a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">渔民意外捕到野生中华鲟 5万块不卖放归回大海 </a>
+  					</li>
+  				</ul>
+  				<ul class="focus-left-bottom clearfix">
+  					<li class="left-float">
+  						<a href="#">
+  							<img src="dist/img/lazyloading.gif" data-echo="dist/img/focus-left-bottom1.jpg" alt="图片加载失败"/>
+  							<p>夫妇结婚后发现18年前同框</p>
+  						</a>
+  					</li>
+  					<li class="right-float">
+  						<a href="#">
+  							<img src="dist/img/lazyloading.gif" data-echo="dist/img/focus-left-bottom2.png" alt="图片加载失败"/>
+  							<p>新郎掀开红盖头瞬间被吓傻</p>
+  						</a>
+  					</li>
+  				</ul>
+			</div>
+			
+			<!--今日焦点中部-->
+  			<div class="today-focus-center left-float">
+  				<div class="focus-center-top ">
+					<div class="flexslider">
+					  <ul class="center-top-picture slides">
+					    <li style="background:url(dist/img/focus-center-top.jpg) 0 no-repeat;"></li>
+					    <li style="background:url(dist/img/focus-center-top1.jpg) 0 no-repeat;"></li>
+					    <li style="background:url(dist/img/focus-center-top.jpg) 0 no-repeat;"></li>
+					    <li style="background:url(dist/img/focus-center-top1.jpg) 0 no-repeat;"></li>
+					  </ul>
+					</div> 
+  				</div>
+  				<ul class="focus-center-bottom">
+					<li>
+						<a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+						<a href="#">鹿晗关晓彤维也纳街头甜蜜漫步</a><a href="#">林志玲否认怀孕</a>
+					</li>
+  					<li>
+  						<a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">《新番》朱正廷强吻猪小番</a><a href="#">胡先煦自曝艺考紧张</a>
+  					</li>
+  					<li>
+  						<a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">张杰晕倒风波后仍工作 </a><a href="#">陈伟霆与广场舞大妈斗舞 </a>
+  					</li>
+  					<li>
+  						<a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">带你走进宝莱坞歌舞世界</a><a href="#">孙伊涵沉迷游戏"换装"</a>
+  					</li>
+  					<li>
+  						<a href="#"><img src="dist/img/lazyloading.gif" data-echo="dist/img/today-focus-play-logo.png" alt="图片加载失败"/></a>
+  						<a href="#">初学者的吉他自学秘籍</a><a href="#">【1元抢】LED护眼台灯</a>
+  					</li>
+  				</ul>
+  			</div>
+  			
+  			<!--今日焦点右侧-->
+  			<div class="today-focus-right left-float clearfix">
+  				<ul class="focus-right-left left-float clearfix">
+  					<li class="left-float"><a href=""><img src="dist/img/lazyloading.gif" data-echo="dist/img/todya-focus-right-1.jpg" alt="图片加载失败"></a><a href="#"><p>内部选C花样多秦奋崩溃</p></a></li>
+  					<li class="left-float"><a href=""><img src="dist/img/lazyloading.gif" data-echo="dist/img/todya-focus-right-3.jpg" alt="图片加载失败"></a><a href="#"><p>惠若琪来袭现场"选男友"</p></a></li>
+  					<li class="left-float"><a href=""><img src="dist/img/lazyloading.gif" data-echo="dist/img/todya-focus-right-5.jpg" alt="图片加载失败"></a><a href="#"><p>李晨亲自上阵造卸妆神器</p></a></li>
+  				</ul>
+  				<ul class="focus-right-right right-float clearfix">
+  					<li class="left-float"><a href=""><img src="dist/img/lazyloading.gif" data-echo="dist/img/todya-focus-right-2.jpg" alt="图片加载失败"></a><a href="#"><p>《厉害了 我的国》预告片</p></a></li>
+  					<li class="left-float"><a href=""><img src="dist/img/lazyloading.gif" data-echo="dist/img/todya-focus-right-4.jpg" alt="图片加载失败"></a><a href="#"><p>一起感受男神低音嗓魅力</p></a></li>
+  					<li class="left-float"><a href=""><img src="dist/img/lazyloading.gif" data-echo="dist/img/todya-focus-right-5.jpg" alt="图片加载失败"></a><a href="#"><p>李晨亲自上阵造卸妆神器</p></a></li>
+  				</ul>
+  			</div>
+  		</div>
+  		
+  		<!--综艺 -->
+  		<div class="variety-wrapper clearfix">
+  			<!--综艺左部-->
+  			<div class="variety-wrapper-left left-float">
+  				<div class="variety-left-title clearfix">
+  					<a href="#" class="left-float"><img src="dist/img/lazyloading.gif" data-echo="dist/img/qianbiaozhi.png"/>综艺<span>更多></span></a>
+  					
+  					<ul class="vleft-title-list left-float clearfix">
+  						<li class="left-float"><a href="#">2018狗年春晚</a><img src="dist/img/lazyloading.gif" data-echo="dist/img/xiegang.png"></li>
+  						<li class="left-float"><a href="#">三个院子</a><img src="dist/img/lazyloading.gif" data-echo="dist/img/xiegang.png"></li>
+  						<li class="left-float"><a href="#">坑王驾到2</a><img src="dist/img/lazyloading.gif" data-echo="dist/img/xiegang.png"></li>
+  						<li class="left-float"><a href="#">声临其境</a></li>
+  					</ul>
+  				</div>
+  				
+  				<div class="vleft-main-wrapper clearfix">
+  					<div class="vleft-mone-wrapper left-float">
+  						<div class="flexslider">
+						  <ul class="vleft-mone-picture slides">
+						    <li style="background:url(dist/img/vleft-mone-picture1.jpg) no-repeat;">
+						    	<div class="vleft-mone-text">
+						    		<p><a href="#">二十四小时</a></p>
+  									<p><a href="#">张PD花式公布名次小鬼被玩儿坏 王嘉尔熊抱选手</a></p>
+						    	</div>
+						    </li>
+						    <li style="background:url(dist/img/vleft-mone-picture2.jpg) no-repeat;">
+						    	<div class="vleft-mone-text">
+						    		<p><a href="#">偶像练习生</a></p>
+  									<p><a href="#">胡一天魏大勋跳“伦巴” 林允甜蜜攻势PK白敬亭</a></p>
+  								</div>
+						    </li>
+						  </ul>
+						</div> 
+  					</div>
+  					
+  					<!--综艺左部列表-->
+  					<div class="variety-center-wrapper">
+  						<ul class="variety-center-list clearfix">
+  							<li class="variety-center-item left-float">
+  								<a href="#">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/variety-center-01.jpg" alt="图片加载失败">
+  									<span>05-24期</span>
+  								</a>
+  								<p><a href="#">妈妈是超人3：福利双播</a></p>
+  								<p>活恐龙交友会 嗯哼吓到懵圈</p>
+  							</li>
+  							
+  							<li class="variety-center-item left-float">
+  								<a href="#">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/variety-center-02.jpg" alt="图片加载失败">
+  									<span>05-20期</span></a>
+  								<p><a href="#">极限挑战第4季</a></p>
+  								<p>确认过眼神！艺兴算术不太行</p>
+  							</li>
+  							<li class="variety-center-item left-float">
+  								<a href="#">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/variety-center-03.jpg" alt="图片加载失败">
+  									<span>05-19期</span></a>
+  								<p><a href="#">跨界歌王第3季</a></p>
+  								<p>吴秀波《儿时》送给儿子</p>
+  							</li>
+  							<li class="variety-center-item left-float">
+  								<a href="#">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/variety-center-04.jpg" alt="图片加载失败">
+  									<span>05-26期</span>	
+  								</a>
+  								<p><a href="#">坑王驾到：周末双播</a></p>
+  								<p>武松武大郎同归初见潘金莲</p>
+  							</li>
+  							<li class="variety-center-item left-float">
+  								<a href="#">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/variety-center-05.jpg" alt="图片加载失败">
+  									<span>05-19期</span>
+  								</a>
+  								<p><a href="#">高能少年团第2季</a></p>
+  								<p>杨紫雪地魔性尖叫意外翻车</p>
+  							</li>
+  							<li class="variety-center-item left-float">
+  								<a href="#">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/variety-center-06.jpg" alt="图片加载失败">
+  									<span>05-19期</span>
+  								</a>
+  								<p><a href="#">朗读者第2季</a></p>
+  								<p>王石自曝60岁读哈佛艰辛</p>
+  							</li>
+  						</ul>
+  					</div>	
+  				</div>
+  			</div>
+  			<div class="variety-wrapper-right left-float">
+  				<div class="variety-right-top">
+  					<a href="#" class="variety-right-title">精彩推荐<span>更多></span></a>
+  				</div>
+  				<a href="#" class="variety-right-img">
+  					<div>
+  						<img src="dist/img/lazyloading.gif" data-echo="dist/img/variety-right 01.jpg"  alt="图片加载失败"/>
+  					</div>
+  					<p>极限挑战5.24生日快乐</p>
+  				</a>
+  				<ul class="variety-right-list">
+  					<li class="variety-right-item"><a href="#">宋威龙后台采访花絮</a></li>
+  					<li class="variety-right-item"><a href="#">油炸青虫吓跑王俊凯</a></li>
+  					<li class="variety-right-item"><a href="#">泡泡专访彭昱畅</a></li>
+  					<li class="variety-right-item"><a href="#">鹿晗跑男单人回顾</a></li>
+  					<li class="variety-right-item"><a href="#">吴亦凡加盟说唱正能量</a></li>
+  				</ul>
+  			</div>
+  		</div>
+  		
+  		<div class="mian-wrapper">
+  			
+  			<!--自制综艺-->
+  			<div class="self-variety-wrapper">
+  				<div class="self-top">
+  					<a href="#" class="self-top-title">
+  						自制综艺
+  						<span>热血街舞团></span>
+  					</a>
+  					
+  					<a href="#">机器人争霸</a>
+  					<span>/</span>
+  					<a href="#">奇葩大会第2季</a>
+  					<span>/</span>
+  					<a href="#">偶像练习生</a>
+  				</div>
+  				
+  				<div class="self-main">
+  					<ul class="self-main-list clearfix">
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/self-variety-01.jpg" alt="图片加载失败"/>
+  							</a>
+  							<div class="item-title">
+	  							机器人争霸 · 
+	  							<span>第9期：黄金暴击VS黑狼Baby揪心</span>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/self-variety-02.jpg" alt="图片加载失败"/>
+  							</a>
+  							<div class="item-title">
+	  							热血街舞团 · 
+	  							<span>第10期：美翻！千千女神“挑逗”鹿boss</span>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/self-variety-03.jpg" alt="图片加载失败"/>
+  							</a>
+  							<div class="item-title">
+	  							热血街舞团 · 
+	  							<span>剧情升级版：扎心了！陈伟霆腿太长不合群</span>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/self-variety-04.jpg" alt="图片加载失败"/>
+  							</a>
+  							<div class="item-title">
+	  							剧情升级版 · 
+	  							<span>剧情升级版：扎心了！陈伟霆腿太长不合群</span>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/self-variety-05.jpg" alt="图片加载失败"/>
+  							</a>
+  							<div class="item-title">
+	  							机器人争霸 ·  
+	  							<span>粉丝独享版:Baby黄金暴击参赛引争议</span>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/self-variety-06.jpg" alt="图片加载失败"/>
+  							</a>
+  							<div class="item-title">
+	  							热血教练场 ·  
+	  							<span>热血教练场 · 肖杰冯正化身吃货二人组</span>
+  							</div>
+  						</li>
+  					</ul>
+  				</div>
+  			</div>
+  			
+  			<!--脱口秀-->
+  			<div class="talk-show">
+  				<div class="self-top">
+  					<a href="#" class="self-top-title">
+  						脱口秀
+  						<span>更多></span>
+  					</a>
+  					
+  					<a href="#">梁知</a>
+  					<span>/</span>
+  					<a href="#">笑霸来啦</a>
+  					<span>/</span>
+  					<a href="#">有话非要说</a>
+  				</div>
+  				
+  				<div class="self-main">
+  					<ul class="self-main-list clearfix">
+  						<li class="self-main-item left-float">
+  							<a href="#" class="zizhi">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/talk-01.gif" alt="图片加载失败"/>
+  								<span>05-26期</span>
+  							</a>
+  							<div class="item-title">
+	  							笑霸来了
+	  							<p>车厢泳池堪比激流勇进刺激</p>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#" class="zizhi">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/talk-02.jpg" alt="图片加载失败"/>
+  								<span>05-26期</span>
+  							</a>
+  							<div class="item-title">
+	  							梁知
+	  							<p>老梁讲孙悟空的“加薪路”</p>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/talk-03.jpg" alt="图片加载失败"/>
+  								<span>05-24期</span>
+  							</a>
+  							<div class="item-title">
+	  							非常静距离
+	  							<p>小沈阳谈和妻子艰辛“东漂”</p>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/talk-04.jpg" alt="图片加载失败"/>
+  								<span>05-23期</span>
+  							</a>
+  							<div class="item-title">
+	  							北脱现场秀 
+	  							<p>文超吐槽鹿晗说话太吞字</p>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/talk-05.jpg" alt="图片加载失败"/>
+  								<span>05-26期</span>
+  							</a>
+  							<div class="item-title">
+	  							非正式会谈
+	  							<p>人造子宫是平权还是生理退后</p>
+  							</div>
+  						</li>
+  						
+  						<li class="self-main-item left-float">
+  							<a href="#">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/talk-06.jpg" alt="图片加载失败"/>
+  								<span>05-26期</span>
+  							</a>
+  							<div class="item-title">
+	  							超级对话  
+	  							<p>体育明星“太太团”发展史</p>
+  							</div>
+  						</li>
+  					</ul>
+  				</div>
+  			</div>	
+  			
+  			<!--娱乐-->
+  			<div class="disport">
+  				<!--top-->
+  				<ul class="disport-top clearfix">
+  					<li class="left-float"><a href="#" class="disport-title">娱乐<span>更多></span></a></li>
+  					<li class="left-float"><a href="#">爱奇艺早班机</a><span>/</span></li>
+  					<li class="left-float"><a href="#">娱乐猛回头</a><span>/</span></li>
+  					<li class="left-float"><a href="#">泡菜帮</a><span>/</span></li>
+  					<li class="left-float"><a href="#">音乐大抖腿</a><span>/</span></li>
+  					<li class="left-float"><a href="#">七分七秒</a><span>/</span></li>
+  					<li class="left-float"><a href="#">就是这个样子</a></li>
+  				</ul>
+  				
+  				<!--main-->
+  				<div class="disport-main clearfix">
+  					<!--main-left-->
+  					<div class="disport-main-left left-float">
+  						<div class="disport-left flexslider">
+						  <ul class="slides disport-left-list">
+						    <li class="disport-left-item" style="background:url(dist/img/disport-left-1.jpg)no-repeat;">
+						    	<div class="disport-left-title">
+						    		<a href="#">佟丽娅登封OL装成熟知性 条纹衬衫露招牌笑容很清爽</a>
+						    		<p title="24日，佟丽娅一组写真照曝光，照片中，佟丽娅一身OL装扮，气质成熟优雅。">24日，佟丽娅一组写真照曝光，照片中，佟丽娅一身OL装扮，气质成熟优雅。</p>
+						    	</div>
+						    	<span>00:45</span>
+						    </li>
+						    <li class="disport-left-item" style="background:url(dist/img/disport-left-2.jpg)no-repeat;">
+						    	<div class="disport-left-title">
+						    		<a href="#">爱奇艺早班机：范丞丞献综艺首秀 与欧阳娜娜热血奔跑</a>
+						    		<p title="昨天的《奔跑吧》倒是热血的不得了，最后的环节大家认真的连麦都摘掉了，我还以为我在看什么晋级节目，只是在旁边加油的Baby都激动到破音">昨天的《奔跑吧》倒是热血的不得了，最后的环节大家认真的连麦都摘掉了，我还以为我在看什么晋级节目，只是在旁边加油的Baby都激动到破音</p>
+						    	</div>
+						    	<span>05-26期</span>
+						    </li>
+						  </ul>
+						</div>  
+  					</div>
+  					
+  					<!--main-right-->
+  					<div class="disport-main-right left-float">
+  						<ul class="disport-right-list clearfix">
+  							<li class="disport-right-item left-float">
+  								<a href="#" class="disport-right-img">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/disport-right-01.jpg" alt="图片加载失败">
+  									<span>00:45</span>
+  								</a>
+  								<div class="disport-right-title">
+  									呆萌：钱正昊的网红捧脸杀 掩饰羞涩：给你个面子
+  								</div>
+  							</li>
+  							
+  							<li class="disport-right-item left-float">
+  								<a href="#" class="disport-right-img">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/disport-right-02.jpg" alt="图片加载失败">
+  									<span>00:45</span>
+  								</a>
+  								<div class="disport-right-title">
+  									温馨：李茂晒照想老婆儿子 一家三口手牵手画面幸福
+  								</div>
+  							</li>
+  							
+  							<li class="disport-right-item left-float">
+  								<a href="#" class="disport-right-img">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/disport-right-03.jpg" alt="图片加载失败">
+  									<span>00:30</span>
+  								</a>
+  								<div class="disport-right-title">
+  									女友臂：林允露胳膊秀肌肉 粉丝直呼：你怎么这么瘦
+  								</div>
+  							</li>
+  							
+  							<li class="disport-right-item left-float">
+  								<a href="#" class="disport-right-img">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/disport-right-04.jpg" alt="图片加载失败">
+  									<span>10:20</span>
+  								</a>
+  								<div class="disport-right-title">
+  									开心：佟丽娅陈思诚再出游 丫丫被晒到愁眉苦脸
+  								</div>
+  							</li>
+  							
+  							<li class="disport-right-item left-float">
+  								<a href="#" class="disport-right-img">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/disport-right-04.jpg" alt="图片加载失败">
+  									<span>04:45</span>
+  								</a>
+  								<div class="disport-right-title">
+  									开心：佟丽娅陈思诚再出游 丫丫被晒到愁眉苦脸
+  								</div>
+  							</li>
+  							<li class="disport-right-item left-float">
+  								<a href="#" class="disport-right-img">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/disport-right-05.jpg" alt="图片加载失败">
+  									<span>00:45</span>
+  								</a>
+  								<div class="disport-right-title">
+  									期待：阿娇婚宴酒店大曝光 穿抹胸婚纱做最美新娘
+  								</div>
+  							</li>
+  							
+  							<li class="disport-right-item left-float">
+  								<a href="#" class="disport-right-img">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/disport-right-07.jpg" alt="图片加载失败">
+  									<span>08:34</span>
+  								</a>
+  								<div class="disport-right-title">
+  									尴尬：古天乐回应皮肤变白 称太忙没时间晒太阳
+  								</div>
+  							</li>
+  							<li class="disport-right-item left-float">
+  								<a href="#" class="disport-right-img">
+  									<img src="dist/img/lazyloading.gif" data-echo="dist/img/disport-right-08.jpg" alt="图片加载失败">
+  									<span>04:50</span>
+  								</a>
+  								<div class="disport-right-title">
+  									幼稚：洛熙夏沫甜蜜打电话 欧辰吃醋使坏
+  								</div>
+  							</li>
+  						</ul>
+  					</div>
+  				</div>
+  			</div>
+  			
+  			<!--爱奇艺号-->
+  			<div class="aqy-number">
+  				<!--top-->
+  				<div class="aqy-top">
+  					<a href="#" class="aqy-top-title">
+  						爱奇艺号
+  						<span>更多></span>
+  					</a>
+  				</div>
+  				<!--main-->
+  				<div class="qyi-main">
+  					<ul class="qyi-main-list clearfix">
+  						<li class="qyi-main-item left-float">
+  							<a href="#" class="zizhi qyi-item-img picture-box">
+  								<span class="icon-1080P">1080P</span>
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/aqy-number-01.jpg" alt="图片加载失败"/>
+  								<span class="icon-time">更新至25集</span>
+  							</a>
+  							<div class="item-title">
+	  							兔小贝手工课堂 第2季 第25集 五角星
+	  							<p><span class="iconfont icon-02"></span>兔小贝儿童乐园</p>
+  							</div>
+  							<div class="follow aqy-follow">关注</div>
+  						</li>
+  						
+  						<li class="qyi-main-item left-float">
+  							<a href="#" class="zizhi qyi-item-img picture-box">
+  								<span class="icon-selfplay aqy-icon-selfplay">独播</span>
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/aqy-number-02.jpg" alt="图片加载失败"/>
+  								<span class="icon-time">05-26期</span>
+  							</a>
+  							<div class="item-title">
+	  							【欢乐囧图精选集】戏精小护士演技嗨翻天地
+	  							<p><span class="iconfont icon-02"></span>基腐社</p>
+  							</div>
+  							<div class="follow aqy-follow">关注</div>
+  						</li>
+  						
+  						<li class="qyi-main-item left-float">
+  							<a href="#" class="zizhi qyi-item-img picture-box">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/aqy-number-03.jpg" alt="图片加载失败"/>
+  								<span class="icon-time">05-26期</span>
+  							</a>
+  							<div class="item-title">
+	  							是我，满带骚气的扁桃!
+	  							<p><span class="iconfont icon-02"></span>我是扁桃</p>
+  							</div>
+  							<div class="follow aqy-follow">关注</div>
+  						</li>
+  						
+  						<li class="qyi-main-item left-float">
+  							<a href="#" class="zizhi qyi-item-img picture-box">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/aqy-number-04.jpg" alt="图片加载失败"/>
+  								<span class="icon-time">05-28期</span>
+  							</a>
+  							<div class="item-title">
+	  							实拍：巴黎“蜘蛛侠”30秒徒手爬4楼 从窗台救下4岁男孩
+	  							<p><span class="iconfont icon-02"></span>新京报动新闻</p>
+  							</div>
+  							<div class="follow aqy-follow">关注</div>
+  						</li>
+  						
+  						<li class="qyi-main-item left-float">
+  							<a href="#" class="zizhi qyi-item-img picture-box">
+  								<span class="icon-selfplay">独播</span>
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/aqy-number-05.jpg" alt="图片加载失败"/>
+  								<span class="icon-time">05-28期</span>
+  							</a>
+  							<div class="item-title">
+	  							【高兴就好】狗熊界扛把子才艺大比拼 个个都已成精
+	  							<p><span class="iconfont icon-02"></span>比特工作室</p>
+  							</div>
+  							<div class="follow aqy-follow">关注</div>
+  						</li>
+  						
+  						<li class="qyi-main-item left-float">
+  							<a href="#" class="zizhi qyi-item-img picture-box">
+  								<img src="dist/img/lazyloading.gif" data-echo="dist/img/aqy-number-06.jpg" alt="图片加载失败"/>
+  								<span class="icon-time">更新至209集</span>
+  							</a>
+  							<div class="item-title">
+	  							世界童话全集 第290集 经典的益智故事 晏子使楚
+	  							<p><span class="iconfont icon-02"></span>江苏可一</p>
+  							</div>
+  							<div class="follow aqy-follow">关注</div>
+  						</li>
+  					</ul>
+  				</div>
+  			</div>
+  			
+  			<!--平台-->
+  			<div class="platform">
+  				<ul class="platform-list clearfix">
+  					<li class="platform-item left-float">
+  						<a class="platform-item-content" href="#">
+  							<img class="platform-item-img" src="dist/img/lazyloading.gif" data-echo="dist/img/platform-item(1).jpg" alt="图片加载失败"/>
+  							<p class="platform-item-title">公益平台</p>
+  						</a>
+  					</li>
+  					
+  					<li class="platform-item left-float">
+  						<a class="platform-item-content" href="#">
+  							<img class="platform-item-img" src="dist/img/lazyloading.gif" data-echo="dist/img/platform-item(2).jpg" alt="图片加载失败"/>
+  							<p class="platform-item-title">爱奇艺号</p>
+  						</a>
+  					</li>
+  					
+  					<li class="platform-item left-float">
+  						<a class="platform-item-content" href="#">
+  							<img class="platform-item-img" src="dist/img/lazyloading.gif" data-echo="dist/img/platform-item(3).jpg" alt="图片加载失败"/>
+  							<p class="platform-item-title">广告频道</p>
+  						</a>
+  					</li>
+  					
+  					<li class="platform-item left-float">
+  						<a class="platform-item-content" href="#">
+  							<img class="platform-item-img" src="dist/img/lazyloading.gif" data-echo="dist/img/platform-item(4).jpg" alt="图片加载失败"/>
+  							<p class="platform-item-title">爱奇艺游戏</p>
+  						</a>
+  					</li>
+  					
+  					<li class="platform-item left-float">
+  						<a class="platform-item-content" href="#">
+  							<img class="platform-item-img" src="dist/img/lazyloading.gif" data-echo="dist/img/platform-item(5).jpg" alt="图片加载失败"/>
+  							<p class="platform-item-title">爱奇艺应用商场</p>
+  						</a>
+  					</li>
+  					
+  					<li class="platform-item left-float">
+  						<a class="platform-item-content" href="#">
+  							<img class="platform-item-img" src="dist/img/lazyloading.gif" data-echo="dist/img/platform-item(6).jpg" alt="图片加载失败"/>
+  							<p class="platform-item-title">爱奇艺商城</p>
+  						</a>
+  					</li>
+  				</ul>
+  			</div>
+  		</div>
+  		
+  		<!--页脚-->
+  		<div class="footer-wrapper">
+			<div class="footer">
+				<!--footer-top-->
+				<div class="footer-top clearfix">
+					<div class="footer-top-left left-float">
+						<div class="footer-tleft-title">
+							<a href="#">合作伙伴<span>更多></span></a>
+						</div>
+						<ul class="footer-tleft-list clearfix">
+							<li class="footer-tleft-item left-float"><a href="#">万达电影网</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">星美</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">光线影业</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">电影网</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">华策影视</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">百度视频</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">百度百科</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">微博视频台</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">百度贴吧</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">央广网</a></li>
+							<li class="footer-tleft-item left-float"><a href="#">hao123</a></li>
+						</ul>
+					</div>
+					<div class="footer-top-right left-float">
+						<div class="footer-tright-title">
+							<a href="#">爱奇艺动态<span>更多></span></a>
+						</div>
+						<ul class="footer-tright-list clearfix">
+							<li class="footer-tright-item left-float"><a href="#">爱奇艺与京东达成独家战略合作</a></li>
+							<li class="footer-tright-item left-float"><a href="#">2018爱奇艺粉丝嘉年华开幕</a></li>
+							<li class="footer-tright-item left-float"><a href="#">《热血街舞团》实现海外同步直播</a></li>
+							<li class="footer-tright-item left-float"><a href="#">爱奇艺正式在美国纳斯达克挂牌上市</a></li>
+							<li class="footer-tright-item left-float"><a href="#">《琅琊榜之风起长林》26亿收官</a></li>
+							<li class="footer-tright-item left-float"><a href="#">艾瑞榜单出炉爱奇艺领先全网</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--footer-link-->
+				<div class="footer-center">
+					<ul class="footer-center-list clearfix">
+						<li class="footer-center-item left-float"><a href="#">京网文[2015]0652-282号-1</a></li>
+						<li class="footer-center-item left-float"><a href="#"><img src="dist/img/trust.png"> 中国互联网诚信联盟</a></li>
+						<li class="footer-center-item left-float"><a href="#">出版物经营许可证</a></li>
+						<li class="footer-center-item left-float"><a href="#">信息网络传播视听节目许可证 0110544号</a></li>
+						<li class="footer-center-item left-float"><a href="#">广播电视节目制作经营许可证 (京)字第1938号</a></li>
+						<li class="footer-center-item left-float"><a href="#">京ICP证110636号</a></li>
+						<li class="footer-center-item left-float"><a href="#"><img src="dist/img/records.png"> 经营性网站备案信息</a></li>
+						<li class="footer-center-item left-float">京公网安备 11010802010263号</li>
+						<li class="footer-center-item left-float"><a href="#">增值电信业务经营许可证 B2-20120273</a></li>
+						<li class="footer-center-item left-float"><a href="#">互联网药品信息服务资格证书 (京)-经营性-2013-0012</a></li>
+						<li class="footer-center-item left-float"><a href="#">食品经营许可证 JY11108111598788</a></li>
+					</ul>
+				</div>
+				<!--footer-bottom-->
+				<div class="footer-bottom">
+					<p class="footer-btop-list clearfix">
+						<a href="#">公司介绍</a><span>|</span>
+						<a href="#">新闻动态</a><span>|</span>
+						<a href="#">Investor Relations</a><span>|</span>
+						<a href="#">联系方式</a><span>|</span>
+						<a href="#">内容播放量计算标准</a><span>|</span>
+						<a href="#">招聘英才</a><span>|</span>
+						<a href="#">爱奇艺创新实验室</a><span>|</span>
+						<a href="#">开放平台</a><span>|</span>
+						<a href="#">爱奇艺内容合作标准</a><span>|</span>
+						<a href="#">爱奇艺号</a><span>|</span>
+						<a href="#">爱奇艺会员合作</a><span></span>
+						<a href="#">安全应急响应中心</a><span>|</span>
+						<a href="#">帮助中心</a><span>|</span>
+						<a href="#">侵权投诉</a>
+					</p>
+					<!--<ul class="footer-btop-list clearfix">
+						<li class="footer-btop-item left-float"><a href="#">公司介绍</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">新闻动态</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">Investor Relations</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">联系方式</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">内容播放量计算标准</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">招聘英才</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">爱奇艺创新实验室</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">开放平台</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">爱奇艺内容合作标准</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">爱奇艺号</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">爱奇艺会员合作</a></li>
+						<li class="footer-btop-item center-item left-float"><a href="#">安全应急响应中心</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">帮助中心</a><span>|</span></li>
+						<li class="footer-btop-item left-float"><a href="#">侵权投诉</a></li>
+					</ul>-->
+					
+					<p class="footer-bottom-feedback">
+						<a href="#">中国互联网举报中心</a>
+						<a href="#">网络举报APP下载</a>
+						<span>违法和不良信息举报电话：400-923-7171</span>
+						<a href="#">举报邮箱：jubao365@qiyi.com</a>
+					</p>
+					
+					<p class="footer-bottom-feedback">
+						<a href="#">反盗版和反盗链权利声明</a>
+						<span>Copyright © 2018 爱奇艺 All Rights Reserved</span>
+					</p>
+				</div>
+			</div>
+		</div>	
+  		
+  		<script src="dist/js/jquery-1.11.0.min.js"></script>
+  		<script src="dist/js/echo.min.js"></script>
+  		<script src="dist/js/carousel.js"></script>
+  		<script src="dist/js/jquery.flexslider-min.js"></script>
+  		<script src="dist/js/index.js"></script>
+	</body>
+</html>
+
